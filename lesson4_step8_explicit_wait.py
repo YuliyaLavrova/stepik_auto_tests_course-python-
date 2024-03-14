@@ -26,7 +26,7 @@ try:
     input.send_keys(y)
     button1 = browser.find_element(By.ID, "solve")
     button1.click()
-    time.sleep(10)
+    time.sleep(5)
 
 
 finally:
